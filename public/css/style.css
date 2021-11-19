@@ -1,0 +1,150 @@
+
+
+
+.contact-ttl {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+
+.contact-table {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.name {
+  display: flex;
+}
+
+.lastName {
+  margin-left: 55px;
+  width: 46%;
+}
+
+.firstName {
+  width: 46%;
+}
+
+.example-word {
+  display: block;
+  color: #AAAAAA;
+  margin: 10px 20px;
+}
+
+.post-example-word {
+  display: block;
+  color: #AAAAAA;
+  margin: 10px 70px;
+}
+
+.required-logo {
+  color: red;
+}
+
+th {
+  text-align: left;
+  font-size: 20px;
+}
+
+tr {
+  height: 90px;
+}
+
+input[type=radio]{
+  display: none;
+}
+
+input[type="radio"]:checked + label {
+  background: block;
+}
+
+.radio-label {
+  position: relative;
+  display: inline-block;
+  margin-left: 55px;
+  margin-right: 30px;
+  margin-top: 15px;
+}
+
+.radio-label::after {
+  content: '';
+  position: absolute;
+  top: -15px;
+  left: -50px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.radio-label::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -35px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background: black;
+  opacity: 0;
+}
+
+input[type=radio]:checked + .radio-label::before {
+  opacity: 1;
+}
+
+
+.post-logo {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+  width: 10%;
+  text-align: center;
+}
+
+.post {
+  display: flex;
+  align-items: center;
+}
+
+input {
+  width: 100%;
+  height: 30px;
+  border-radius: 8px;
+
+}
+
+textarea {
+  width: 100%;
+  height: 120px;
+  border-radius: 8px;
+  display: block;
+}
+
+.form-button {
+  display: block;
+  width: 130px;
+  height: 40px;
+  margin: 30px auto ;
+  background: black;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  opacity: 0.6;
+  transition: 0.6s;
+}
+
+.error {
+  color: red;
+}
+
